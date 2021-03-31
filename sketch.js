@@ -17,9 +17,6 @@ var gameOver_Sound;
 
 function preload(){
 
-scoringSound = loadSound("jump.wav");
-gameOver_Sound = loadSound("collided.wav");
-
 }
 function setup() {
   createCanvas(800, 800);
